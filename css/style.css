@@ -1,0 +1,164 @@
+/* All common css start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.container {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+/* All common css end */
+
+/* Header Part CSS Start */
+#headerPart {
+    background: #F9F9FC;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    padding: 0 25px;
+    text-transform: uppercase;
+    line-height: 70px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.headerButton {
+    padding: 10px 20px;
+    background: #5E3BEE;
+    border-radius: 50px;
+}
+
+.headerButton a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.headerButton a i {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+/* Header Part CSS End */
+
+/* Banner Part CSS Start */
+#bannerPart {
+    background: #F9F9FC;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+.bannerLeft {
+    width: 50%;
+}
+
+.bannerLeft h4 {
+    padding-top: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5E3BEE;
+    text-transform: uppercase;
+}
+
+.bannerLeft h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    width: 480px;
+}
+
+.bannerButton a{
+    background: #5E3BEE;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.bannerButton a:hover{
+    background: rgba(255, 255, 255, 0);
+    color: #333333;
+    transition: .4s;
+}
+
+.bannerButton a i{
+    margin-right: 10px;
+}
+
+.bannerRight {
+    width: 50%;
+}
+
+.bannerRight img {
+    width: 100%;
+}
+/* Banner Part CSS End */
+
+/* Counter Part CSS Start */
+.counter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 23%;
+    padding: 90px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 37px 37px 80px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item h3{
+    font-size: 48px;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.item h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(18, 18, 18, 0.7);
+}
+/* Counter Part CSS End */
