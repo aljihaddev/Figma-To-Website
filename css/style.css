@@ -141,14 +141,14 @@ h1,h2,h3,h4,h5,h6,p{
     justify-content: space-between;
 }
 
-.empty{
-    padding: 50px;
+.emptyOne{
+    padding: 45px;
     background: rgb(255, 255, 255);
 }
 
 .item{
     width: 23%;
-    padding: 40px 0px;
+    padding: 45px 0px;
     text-align: center;
     text-transform: uppercase;
     box-shadow: 37px 37px 80px 0 rgba(0, 0, 0, 0.1);
@@ -166,5 +166,10 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 16px;
     font-weight: 500;
     color: rgba(18, 18, 18, 0.7);
+}
+
+.emptyTwo{
+    padding: 45px;
+    background: rgba(255, 255, 255, 0);
 }
 /* Counter Part CSS End */
