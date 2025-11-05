@@ -16,7 +16,13 @@ ol {
     list-style-type: none;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
     padding: 0;
     line-height: 0.8;
@@ -106,7 +112,7 @@ h1,h2,h3,h4,h5,h6,p{
     width: 480px;
 }
 
-.bannerButton a{
+.bannerButton a {
     background: #5E3BEE;
     color: #FFFFFF;
     font-size: 14px;
@@ -116,13 +122,13 @@ h1,h2,h3,h4,h5,h6,p{
     text-transform: uppercase;
 }
 
-.bannerButton a:hover{
+.bannerButton a:hover {
     background: rgba(255, 255, 255, 0);
     color: #333333;
     transition: .4s;
 }
 
-.bannerButton a i{
+.bannerButton a i {
     margin-right: 10px;
 }
 
@@ -133,20 +139,20 @@ h1,h2,h3,h4,h5,h6,p{
 .bannerRight img {
     width: 100%;
 }
+
 /* Banner Part CSS End */
 
 /* Counter Part CSS Start */
-.counter{
+#counterPart {
+    padding: 90px;
+}
+
+.counter {
     display: flex;
     justify-content: space-between;
 }
 
-.emptyOne{
-    padding: 45px;
-    background: rgba(255, 255, 255, 0);
-}
-
-.item{
+.item {
     width: 23%;
     padding: 45px 0px;
     text-align: center;
@@ -155,21 +161,17 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 25px;
 }
 
-.item h3{
+.item h3 {
     font-size: 48px;
     font-weight: 600;
     color: #000000;
     padding-bottom: 10px;
 }
 
-.item h4{
+.item h4 {
     font-size: 16px;
     font-weight: 500;
     color: rgba(18, 18, 18, 0.7);
 }
 
-.emptyTwo{
-    padding: 45px;
-    background: rgba(255, 255, 255, 0);
-}
 /* Counter Part CSS End */
