@@ -141,12 +141,18 @@ h1,h2,h3,h4,h5,h6,p{
     justify-content: space-between;
 }
 
+.empty{
+    padding: 50px;
+    background: rgb(255, 255, 255);
+}
+
 .item{
     width: 23%;
-    padding: 90px 0px;
+    padding: 40px 0px;
     text-align: center;
     text-transform: uppercase;
     box-shadow: 37px 37px 80px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
 }
 
 .item h3{
